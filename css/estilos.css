@@ -218,3 +218,30 @@ header .textos h3
 }
 
 /*--Fin Menu--*/
+
+/*--Galeria--*/
+
+.main .galeria
+{
+	overflow:hidden;
+}
+
+.main .galeria .foto
+{
+	width: 24.999%;
+	float: left;
+}
+
+.main .galeria .foto img
+{
+	width: 100%;
+	vertical-align: top;
+	opacity: .7;
+	transition: all ease .7s;
+}
+
+.main .galeria .foto img:hover
+{
+	opacity: 1;
+	-webkit-transform: scale(1.03);
+}
