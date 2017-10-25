@@ -316,6 +316,20 @@ header .textos h3
 div.mapa
 {
     height: 420px;
-    background-color: green
+    background-color: #fff;
 }
 /*Fin Mapa*/
+
+/*Footer*/
+
+footer
+{
+	background: #000;
+}
+
+footer .copyright
+{
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+}
