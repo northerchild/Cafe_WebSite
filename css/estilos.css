@@ -21,6 +21,16 @@ body
 	overflow: hidden;
 }
 
+h2:after
+{
+    content: "";
+    margin: 0 auto;
+    background-image: url(../img/separador.png);
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+
 /*---Header---*/
 
 header
@@ -302,4 +312,10 @@ header .textos h3
 
 /*--Fin Ubicacion--*/
 
-
+/*Mapa*/
+div.mapa
+{
+    height: 420px;
+    background-color: green
+}
+/*Fin Mapa*/
