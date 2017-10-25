@@ -333,3 +333,96 @@ footer .copyright
 	padding: 20px 0;
 	color: #fff;
 }
+
+
+/*Fin Footer*/
+
+
+/*Fin Main*/
+
+
+/*Mediaqueries*/
+
+@media only screen and (max-width: 800px)
+{
+	header .contenedor
+	{
+		position: static;
+		height: auto;
+	}
+
+	header .textos
+	{
+		position: static;
+		margin: 100px 0;
+	}
+
+	header .menu
+	{
+		text-align: center;
+	}
+
+	header .menu a
+	{
+		margin: 10px 20px;
+	}
+	header .textos .nombre
+	{
+		font-size: 1.6em;
+	}
+	header .textos h3
+	{
+		font-size: 1.2em;
+	}
+	.main .acerca-de .foto
+	{
+		width: 100%;
+		position: relative;
+	}
+	.main .acerca-de article
+	{
+		position: relative;
+		width: 100%;
+		top: -50px;
+		transform: translate(0px, 0);
+	}
+
+	.main .menu
+	{
+		padding-top: 300px;
+	}
+	.main .menu article
+	{
+		width: 100%;
+	}
+	.main .galeria .foto
+	{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.main .acerca-de article h3
+	{
+		font-size: 1.8em;
+		margin-bottom: 10px;
+	}
+
+	.main .menu article .nombre,
+	.main .menu article .precio
+	{
+		font-size: 1em;
+		line-height: 1em;
+	}
+	.main .ubicacion .direccion
+	{
+		margin-bottom: 15px;
+	}
+	.main .ubicacion .direccion,
+	.main .ubicacion .horarios
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
