@@ -16,4 +16,15 @@ $(document).ready(function(){
 		}
 	});
 
+	$(window).resize(function()
+	{
+		var windowWidth = $(window).width();
+		if (windowWidth < 800) 
+		{
+			$('.acerca-de article').css({
+				'transform' : 'translate(0px, 0px)'
+			});
+		}
+	});
+
 });
